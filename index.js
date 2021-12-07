@@ -7,7 +7,7 @@ var contacts = [
     {name:"peter","phone":"12345"},
     {name: "John","phone":"6666"}
 ];
-console.log("Starting API server.....");
+console.log("Starting API server..");
 var app = express();
 app.use(bodyParser.json());
 
